@@ -1,2 +1,7 @@
+//select the container div
+const container = document.querySelector(".container")
+
 //creating grid squares
-document.createElement("div")
+for(let i = 0; i < 16; i++) {
+    
+}
