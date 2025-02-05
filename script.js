@@ -2,7 +2,7 @@
 const container = document.querySelector(".container")
 
 //calculate how many grid squares
-const containerWidth = container.getAttribute("width")
+const containerWidth = 960
 
 const divWidth = containerWidth / 16
 
