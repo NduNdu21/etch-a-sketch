@@ -18,7 +18,7 @@ for(let i = 0; i < 16; i++) {
 }
 
 //hover to change color
-const divs = document.querySelectorAll("div")
+const divs = container.querySelectorAll("div")
 
 divs.forEach((div) => {
     div.addEventListener("mouseover", () => {
