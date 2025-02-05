@@ -7,7 +7,7 @@ const containerWidth = 960
 const divWidth = containerWidth / 16
 
 //creating grid squares
-for(let i = 0; i < 16; i++) {
+for (let i = 0; i < 16 * 16; i++) {
     const newDiv = document.createElement("div")
 
     newDiv.style.borderStyle = "solid"
