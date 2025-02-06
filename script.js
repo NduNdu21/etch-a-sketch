@@ -10,7 +10,6 @@ const divWidth = containerWidth / 16
 for (let i = 0; i < 16 * 16; i++) {
     const newDiv = document.createElement("div")
 
-    newDiv.style.borderStyle = "solid"
     newDiv.style.width = divWidth + "px"
     newDiv.style.height = divWidth + "px"
 
