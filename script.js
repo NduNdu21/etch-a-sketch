@@ -6,6 +6,9 @@ const button = document.querySelector("button")
 let size
 
 button.addEventListener("click", () => {
+    //clear grid
+    container.innerHTML = ""
+    
     size = prompt("Choose your grid size:\nEnter a number of squares.\n\nNote: The max limit is 100")
 
     //calculate how many grid squares
