@@ -22,6 +22,8 @@ button.addEventListener("click", () => {
 
         newDiv.style.width = divWidth + "px"
         newDiv.style.height = divWidth + "px"
+        newDiv.style.backgroundColor = "black"
+        newDiv.style.opacity = "0"
 
         container.appendChild(newDiv)
     }
@@ -31,7 +33,7 @@ button.addEventListener("click", () => {
 
     divs.forEach((div) => {
         div.addEventListener("mouseover", () => {
-            div.style.backgroundColor = "grey"
+            div.style.opacity += "0.1"
         })
     })
 })
